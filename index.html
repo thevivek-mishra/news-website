@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News App</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,9 +15,12 @@
             </a>
             <div class="nav-links">
                 <ul class="flex">
-                 <li class="hover-link nav-item" id="ipl" onclick="onNavItemClick('ipl')">IPL</li>
-                 <li class="hover-link nav-item" id="finance" onclick="onNavItemClick('finance')">Finance</li>
+                 <li class="hover-link nav-item" id="ipl" onclick="onNavItemClick('india')">Home</li>
+                 <li class="hover-link nav-item" id="busines" onclick="onNavItemClick('business')">Business</li>
                  <li class="hover-link nav-item" id="politics" onclick="onNavItemClick('politics')">Politics</li>
+                 <li class="hover-link nav-item" id="technology" onclick="onNavItemClick('technology')">Technology</li>
+                 <li class="hover-link nav-item" id="entertainment" onclick="onNavItemClick('entertainment')">Entertainment</li>
+                 <li class="hover-link nav-item" id="sports" onclick="onNavItemClick('sports')">Sports</li>                
                 </ul>
             </div>
             <div class="search-bar">
@@ -25,6 +29,7 @@
             </div>
         </div>
     </nav>
+      
     <main>
         <div class="cards-container container flex" id="cards-container">
             
