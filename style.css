@@ -132,3 +132,49 @@ main{
 .news-source {
     margin-block:12px;
 }
+
+/* css for footer  */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+}
+
+.social-media {
+    margin-right: 20px;
+}
+
+.social-icon {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    color: #ffd700;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.footer-links a:hover {
+    color: #ffd700;
+}
