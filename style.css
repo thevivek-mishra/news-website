@@ -6,10 +6,10 @@
 }
 
 :root {
-   --primary-text-color:#183b56;
-   --secondry-text-color:#577592;
-   --accent-color:#2294ed;
-   --accent-color-dark:#1d69a3;
+   --primary-text-color:#062d4b;
+   --secondry-text-color:#4a647d;
+   --accent-color:#2196f0;
+   --accent-color-dark:#0d60a0;
 }
 
 body{
@@ -66,7 +66,7 @@ nav {
     color: var(--secondry-text-color);
 }
 .hover-link:active{
-    color: red;
+    color:rgb(82, 82, 78);
 }
 .nav-item.active {
     color: var(--accent-color);
