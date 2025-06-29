@@ -37,9 +37,7 @@
 - 📱 Mobile & tablet responsive UI
 - 🔐 Secure backend using `.env` & CORS proxy
 
----
 
-## 🛠️ Local Setup
 
 
 
