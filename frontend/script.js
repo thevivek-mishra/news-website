@@ -3,7 +3,7 @@ window.addEventListener('load', ()=>fetchNews("India"))
 function reload(){
     window.location.reload();
 }
-const url = 'http://localhost:5000/api/news?q='; // Update to your deployed URL later
+const url = 'https://backend-prime-news.onrender.com/api/news?q='; // Update to your deployed URL later
 
 async function fetchNews(query) {
   try {
