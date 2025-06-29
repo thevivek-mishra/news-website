@@ -1,29 +1,21 @@
-const API_KEY ="faf84f778b3a46bcb1ed1edd3e4242e7";
-const url = 'https://newsapi.org/v2/everything?q='
+
 window.addEventListener('load', ()=>fetchNews("India"))
 function reload(){
     window.location.reload();
 }
+const url = 'http://localhost:5000/api/news?q='; // Update to your deployed URL later
+
 async function fetchNews(query) {
-    try {
-        const res = await fetch(`${url}${query}&apiKey=${API_KEY}`);
-        
-        if (!res.ok) {
-            throw new Error(`HTTP error! status: ${res.status}`);
-        }
-
-        const data = await res.json();
-
-        if (!data.articles) {
-            console.error("No articles found in response:", data);
-            return;
-        }
-
-        bindData(data.articles);
-    } catch (err) {
-        console.error("Error fetching news:", err);
-    }
+  try {
+    const res = await fetch(`${url}${query}`);
+    const data = await res.json();
+    if (!data.articles) return;
+    bindData(data.articles);
+  } catch (err) {
+    console.error("Error fetching news:", err);
+  }
 }
+
 
 
 function bindData(articles){
@@ -75,3 +67,15 @@ searchButton.addEventListener('click',()=>{
     curSelectedNav?.classList.remove('active')
 })
 
+// hamburger 
+
+const hamburger = document.getElementById('hamburger');
+  const navLinks = document.querySelector('.nav-links');
+  const navItems = document.querySelectorAll('.nav-item');
+
+  // Toggle nav on hamburger click
+  
+
+  hamburger.addEventListener('click',()=>{
+    navLinks.classList.toggle('active')
+  })

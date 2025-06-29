@@ -33,6 +33,10 @@ ul {
     display: flex;
     align-items: center;
 }
+.ulflex{
+    display: flex;
+    align-items: center;
+}
 .container {
     max-width: 1180px;
     margin-inline:auto;
@@ -177,4 +181,92 @@ footer {
 
 .footer-links a:hover {
     color: #ffd700;
+}
+ #menu-btn{
+        
+        display: initial;
+    }
+
+
+
+#hamburger img{
+    width: 50px;
+}
+
+#hamburger {
+    display: none;
+}
+
+/* responve nav bar  */
+
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 767px) {
+
+    .card{
+        width: 430px;
+    }
+  
+  #hamburger{
+    display: block;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #d7ede5;
+    position: absolute;
+    top: 66px;
+    right: 0;
+    width: 100%;
+    padding: 0.5rem;;
+  }
+  .active{
+    display: block;
+  }
+
+  
+
+  .nav-links {
+    flex-direction: column;
+    gap: 1rem;
+  }
+ .search-bar{
+    height: 32px;
+    gap: 8px;
+}
+.news-input{
+    width:100px;
+    height: 90%;
+    padding-inline: 12px;
+    border-radius: 4px;
+    border: 2px solid #bbd0e2;
+    font-family: "Roboto",sans-serif;
+}
+.search-button{
+    background-color:var(--accent-color);
+    color: white;
+    padding:4px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Roboto",sans-serif;
+
+}
+
+.ulflex{
+    display: flex;
+    flex-direction: column;
+}
+
+/* after click hamburger   */
+
+.nav-links.active {
+    display: block;
+  }
+  
+}
+ /* for tablet  */
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* Styles for tablets */
+
 }
