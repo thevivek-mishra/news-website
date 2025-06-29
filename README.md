@@ -41,9 +41,5 @@
 
 ## 🛠️ Local Setup
 
-### 📦 Backend Setup (Node.js + Express)
 
-1. Clone the repo:
-```bash
-git clone https://github.com/your-username/backend-prime-news.git
-cd backend-prime-news
+
