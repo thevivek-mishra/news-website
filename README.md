@@ -9,7 +9,7 @@
 
 ## 🚀 Live Demo
 
-- 🔗 **Frontend**: [Live Frontend (Netlify/Vercel)](https://your-frontend.netlify.app)
+- 🔗 **Frontend**: [Live Frontend (Netlify/Vercel)](https://aprimenews.netlify.app/)
 - 🔗 **Backend**: [Live API on Render](https://backend-prime-news.onrender.com/api/news?q=India)
 
 ---
